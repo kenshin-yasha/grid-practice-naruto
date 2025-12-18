@@ -133,6 +133,7 @@ a {
 .card h3 {
     margin: 0.5rem 0;
     font-size: 1.25rem;
+    font-weight: 600;
 }
 
 .card p {
