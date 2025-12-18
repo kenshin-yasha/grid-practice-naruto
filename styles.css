@@ -197,7 +197,7 @@ footer {
 
     .sidebar {
         padding: 1rem 0.5rem;
-        border-right: #6666667e solid 1px;
+        /* border-right: #6666667e solid 1px; */
         border-bottom: none;
     }
 
