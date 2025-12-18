@@ -59,7 +59,7 @@ a {
 }
 
 .navbar {
-    font-size: 1.125rem;
+    font-size: 1.75rem;
     display: flex;
     flex-direction: column;
     gap: .5rem;
@@ -73,11 +73,10 @@ a {
 .sidebar {
     background-color: #e2e2e2;
     padding: 1rem 1rem;
-    border-bottom: #6666667e solid 1px;
 }
 
 .sidebar h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin: 0 1rem;
 }
 
@@ -90,7 +89,10 @@ a {
 }
 
 .sidebar-links a {
-    font-size: 1.25rem;
+    background-color: #d4d4d4;
+    font-size: 1.75rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
     color: #333;
 }
 
@@ -113,6 +115,20 @@ a {
     grid-template-columns: 1fr;
     gap: 1rem;
     padding: 1rem 2rem;
+}
+
+.card-container a {
+    background-color: #4CAF50;
+    font-size: 1.5rem;
+    color: #ffffff;
+    display: block;
+    text-align: center;
+    margin-top: 0.5rem;
+    border-radius: 8px;
+    padding: 0.75rem 0;
+}
+.card-container a:hover {
+    background-color: #4CAF50cc;
 }
 
 .card {
@@ -198,10 +214,18 @@ footer {
         gap: 1rem;
     }
 
+    .sidebar-links a {
+        font-size: 1.5rem;
+    }
+
     .card-container {
         grid-template-columns: repeat(2, 1fr);
         gap: 1.5rem;
         padding: 2rem 0.5rem;
+    }
+
+    .card-container a {
+        display: none;
     }
 
 }
